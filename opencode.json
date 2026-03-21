@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "bash": {
+      "git *": "deny",
+      "git diff *": "allow",
+      "git show *": "allow",
+      "python *": "deny",
+      "python3 *": "deny",
+      "pypy *": "deny",
+      "ipython *": "deny",
+      "uv *": "deny"
+    },
+    "read": {
+      "*": "allow",
+      "config.toml": "deny"
+    }
+  }
+}
