@@ -173,7 +173,7 @@
       ".claude/**": "deny",
       "*/.claude/**": "deny"
     },
-    "webfetch": "ask",
+    "webfetch": "allow",
     "external_directory": {
       "*": "deny",
       "~/.config/git/ignore": "allow",
