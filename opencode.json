@@ -15,5 +15,22 @@
       "*": "allow",
       "config.toml": "deny"
     }
+  },
+  "enabled_providers": [
+    "openai"
+  ],
+  "model": "openai/gpt-5.4",
+  "provider": {
+    "openai": {
+      "models": {
+        "gpt-5.4": {
+          "options": {
+            "reasoningEffort": "high",
+            "reasoningSummary": "auto",
+            "textVerbosity": "medium"
+          }
+        }
+      }
+    }
   }
 }
