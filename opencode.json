@@ -32,6 +32,8 @@
       "ls": "allow",
       "ls *": "allow",
       "mkdir *": "allow",
+      "rg": "allow",
+      "rg *": "allow",
       "sed *": "allow",
       "sort *": "allow",
       "tail *": "allow",
