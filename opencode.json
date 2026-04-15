@@ -16,6 +16,7 @@
       "cat *": "allow",
       "diff *": "allow",
       "git branch --list *": "allow",
+      "git branch --show-current": "allow",
       "git diff *": "allow",
       "git diff": "allow",
       "git log *": "allow",
