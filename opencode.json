@@ -46,6 +46,7 @@
       "rg *": "allow",
       "sed *": "allow",
       "sort *": "allow",
+      "uniq *": "allow",
       "tail *": "allow",
       "wc *": "allow",
       "uv format": "allow",
