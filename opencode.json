@@ -31,6 +31,8 @@
       "git tag --list": "allow",
       "git tag -l *": "allow",
       "git tag -l": "allow",
+      "git rev-parse": "allow",
+      "git rev-parse *": "allow",
       "grep *": "allow",
       "gunzip": "allow",
       "gunzip *": "allow",
