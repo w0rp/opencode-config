@@ -163,6 +163,8 @@
       "pyw *": "deny",
       "pypy": "deny",
       "pypy *": "deny",
+      "ruby": "deny",
+      "ruby *": "deny",
       "rye": "deny",
       "rye *": "deny",
       "splain": "deny",
