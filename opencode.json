@@ -116,6 +116,8 @@
       "node -e *": "deny",
       "nox": "deny",
       "nox *": "deny",
+      "pbcopy": "allow",
+      "pbcopy *": "allow",
       "perl": "deny",
       "perl *": "deny",
       "perlbug": "deny",
