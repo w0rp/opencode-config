@@ -216,6 +216,8 @@
       "*/secrets/**": "deny",
       ".claude/**": "deny",
       "*/.claude/**": "deny",
+      ".claude/skills/**": "allow",
+      "*/.claude/skills/**": "allow",
       "~/.aws/**": "deny",
       "~/.ssh/**": "deny",
       "~/.gnupg/**": "deny",
