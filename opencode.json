@@ -201,6 +201,7 @@
       "uv tool *": "deny",
       "uv venv": "deny",
       "uv venv *": "deny",
+      "uv run python *": "deny",
       "venv/bin/pip*": "deny",
       "venv/bin/python*": "deny",
       "wget": "deny",
