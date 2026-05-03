@@ -19,27 +19,7 @@ opencode --version
 Clone this repository:
 
 ```bash
-git clone https://github.com/w0rp/opencode-config.git
-cd opencode-config
+git clone https://github.com/w0rp/opencode-config.git ~/.config/opencode
 ```
 
-Create the OpenCode config directory in your project:
-
-```bash
-mkdir -p /path/to/your/project/.opencode
-```
-
-Copy the config into your project:
-
-```bash
-cp config.json /path/to/your/project/.opencode/config.json
-```
-
-## Run OpenCode
-
-From your project root:
-
-```bash
-cd /path/to/your/project
-opencode
-```
+Authenticate as normal, and that's it!
